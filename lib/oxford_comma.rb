@@ -6,6 +6,6 @@ def oxford_comma(array)
     back = array.drop(2).unshift('and').join(' ')
     front + back
     elsif array.length > 3
-      p front = array.take(array.length - 1).join(", ")
+      p front = array.take(array.length - 1).join(", ") << ", "
   end
 end
