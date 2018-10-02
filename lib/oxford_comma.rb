@@ -6,5 +6,6 @@ def oxford_comma(array)
     back = array.drop(2).unshift('and').join(' ')
     front + back
     elsif
+    
   end
 end
